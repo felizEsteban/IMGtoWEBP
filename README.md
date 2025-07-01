@@ -1,7 +1,7 @@
 # IMGtoWEBP
 
 **IMPORTANTE:** Para ejecutar correctamente esta herramienta, abre **`launcher.vbs`**.  
-Este archivo se encarga de iniciar la aplicación sin consola y crear, si lo deseas, un acceso directo en el escritorio.
+Este archivo se encarga de iniciar la aplicación sin consola y si lo deseas, un acceso directo en el escritorio.
 
 ---
 
@@ -40,17 +40,6 @@ Si estás usando el entorno virtual `.venv` incluido, no es necesario instalar n
 4. Define la calidad de conversión (1–100).
 5. Haz clic en “Convertir a WebP”.
 6. Se abrirá automáticamente la carpeta de destino con las imágenes convertidas.
-
----
-
-## Estructura del proyecto
-
-IMGtoWEBP/
-├── IMGtoWEBP.py # Script principal
-├── IMGtoWEBP.bat # Ejecuta con entorno virtual
-├── launcher.vbs # Ejecuta sin consola y crea acceso directo al escritorio
-├── converter.ico # Ícono personalizado
-├── .venv/ # Entorno virtual con dependencias
 
 ---
 

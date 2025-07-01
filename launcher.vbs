@@ -6,7 +6,7 @@ rutaEscritorio = shell.SpecialFolders("Desktop") & "\" & nombreAccesso
 
 ' Verifica si ya existe el acceso directo en el escritorio
 If Not fso.FileExists(rutaEscritorio) Then
-    respuesta = MsgBox("¿Deseas crear un acceso directo en el escritorio?", vbYesNo + vbQuestion, "Crear acceso directo")
+    respuesta = MsgBox("Deseas crear un acceso directo en el escritorio?", vbYesNo + vbQuestion, "Crear acceso directo")
     If respuesta = vbYes Then
         Set acceso = shell.CreateShortcut(rutaEscritorio)
         acceso.TargetPath = "wscript.exe"
